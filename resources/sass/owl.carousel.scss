@@ -1,0 +1,136 @@
+@import '~owl.carousel/src/scss/owl.carousel';
+@import '~owl.carousel/src/scss/owl.theme.default';
+
+
+
+//ฉีหะนท 
+
+.owl-carousel .owl-wrapper,
+.owl-carousel .owl-item {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+}
+
+.owl-wrapper-outer {
+    height: 100% !important;
+}
+
+.owl-wrapper {
+    height: 100%;
+}
+
+.owl-item {
+    height: 100%;
+}
+
+
+.owl-img {
+    display: block;
+    height: 100%;
+    width: auto;
+    min-width: 100%;
+}
+
+.owl-text-overlay {
+    position: absolute;
+    text-align: left;
+    padding: 10px 30px;
+    width: 33%;
+    top: 65%;
+    transform: translateY(-65%);
+    left: -50%;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.62);
+    background: rgba(255, 255, 255, 0.62);
+    padding-bottom: 20px;
+    font-family: "Open Sans", sans-serif;
+}
+
+h2.owl-title {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: black;
+    margin: 0;
+}
+
+p.owl-caption {
+    font-size: 18px;
+    line-height: 24px;
+    color: black;
+}
+
+.owl-theme .owl-controls .owl-page span:active {
+    background: #fff !important;
+}
+
+
+#header-slide {
+
+    .owl-dots {
+        position: absolute;
+        width: 100%;
+        bottom: 15px;
+
+
+
+        .owl-dot {
+
+            span {
+                width: 15px;
+                height: 15px;
+                box-shadow: 4px 4px 5px 2px #717171;
+            }
+
+            &.active span,
+            &:hover span {
+                background: #fff;
+            }
+        }
+
+    }
+
+    .owl-nav {
+        text-align: right !important;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+
+        [class*=owl-]:hover {
+            background: #fff;
+            color: #000;
+            text-decoration: none;
+        }
+
+        i {
+            font-size: 30px;
+            color: #886944;
+        }
+
+        button.owl-prev,
+        button.owl-next {
+            border: 1px solid #886944;
+            padding: 0px 5px !important;
+            border-radius: 0;
+        }
+
+        button.owl-prev {
+            margin-right: 25px;
+        }
+    }
+}
+
+
+#slide-amulet,
+#slide-blog {
+    .owl-prev {
+        margin-right: 35px;
+    }
+}

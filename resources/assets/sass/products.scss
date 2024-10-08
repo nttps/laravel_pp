@@ -1,0 +1,294 @@
+.product-name {
+    h2 {
+        font-size: 21px;
+        margin-bottom: 0;
+    }
+}
+
+.add-to-cart .qty-wrapper,.add-to-cart .qty-wrapper label {
+    margin-right: 20px;
+    float: left;
+    width: 70px;
+}
+.product-options-bottom .price-box, .add-to-cart .qty-wrapper, .add-to-cart-buttons .button, .add-to-cart-buttons .paypal-logo {
+    margin-bottom: 10px;
+}
+.add-to-cart .qty-wrapper, .product-options-bottom .price-box, .add-to-cart-buttons {
+    min-height: 40px;
+}
+.add-to-cart .qty-wrapper .qty {
+    float: left;
+    height: 40px;
+    width: 40px;
+    border: 1px solid #000;
+    border-right: 0 none;
+    font-size: 32px;
+    color: #464646;
+    padding: 0;
+    text-align: center;
+}
+.add-to-cart .qty-wrapper .update_qty.btn_minus {
+    border-bottom: 0 none;
+}
+.add-to-cart .qty-wrapper .update_qty {
+    border: 1px solid #000;
+    background-color: transparent;
+    width: 30px;
+    float: right;
+    height: 20px;
+    position: relative;
+    padding: 0;
+    cursor: pointer;
+    border-radius:0;
+
+
+}
+
+
+.add-to-cart-buttons {
+    float: left;
+    margin-right: 10px;
+    max-width: 100%;
+    clear: left;
+}
+.add-to-cart-buttons .button {
+    min-height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    padding: 0 25px;
+    float: left;
+    min-width: 160px;
+    white-space: normal;
+    cursor: pointer;
+    margin-right: 20px;
+    font-family: 'Kanit';
+}
+button.btn-to-cart:disabled{
+    border: 1px solid #999999;
+    background-color: #08658c !important;
+    color: #fff;
+    cursor: not-allowed;
+  }
+.add-to-box .button{
+    background: #ee3124;
+    display: inline-block;
+    padding: 0 20px;
+    border: 0;
+    color: #fff;
+    font-weight: 400;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+    white-space: nowrap;
+
+}
+.add-to-cart-buttons .button span span {
+    color: #fff;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+.add-to-cart-buttons .button span span:before {
+    content: "";
+    float: left;
+    background-color: transparent;
+    background-position: -1px -587px;
+    width: 27px;
+    height: 23px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.shoppinglist-details-link {
+    padding: 0 10px;
+    background-color: #96c13c;
+    border-color: #96c13c;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: uppercase;
+    min-height: 38px;
+    line-height: 38px;
+    float: left;
+    width: auto;
+    height: auto;
+    text-indent: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    min-width: 160px;
+    font-family: 'Kanit';
+}
+
+.add-to-box:after, .add-to-cart:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.productview-add-to-links {
+    clear: both;
+    margin-top: 0;
+    margin-right: 15px;
+    margin-left: 0;
+    float: left;
+    list-style: none;
+    padding-left: 0px;
+}
+.productview-add-to-links li {
+    float: left;
+    margin-bottom: 10px;
+}
+.productview-add-to-links li.compare-link {
+    clear: both;
+}
+.productview-add-to-links li:last-child a {
+    border-right: 0;
+}
+.productview-add-to-links a.link-compare {
+    color: #555;
+}
+.link-compare, .link-compare:hover {
+    font-size: 18px;
+    color: #363636;
+    text-transform: uppercase;
+    text-decoration: none;
+    float: left;
+    margin: 8px 0;
+}
+.productview-add-to-links li:first-child a {
+    margin-left: 0;
+}
+.product-head-description{
+    max-width: 200px;
+    background-color: #ffc222;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 5px 0;
+
+}
+.product-share-link-action {
+    list-style: none;
+    padding-left: 0px;
+    li {
+        float: left;
+        margin-right: 20px;
+        width: 105px;
+        height: 25px;
+        &.facebook{
+            background-color: #3B5998;
+        }
+        &.email{
+            background-color: #ed1c24;
+        }
+        &.line{
+            background-color: #00c300;
+        }
+        &:last-child{
+            margin-right: 0;
+        }
+
+        a{
+            display: table-cell;
+            text-align: center;
+            vertical-align: middle;
+            color: white;
+            font-size: 12px;
+            font-weight: 300;
+            width: 105px;
+            height: 25px;
+
+            &:hover{
+                text-decoration: none;
+            }
+            i {
+                line-height: 25px;
+                color: white;
+            }
+        }
+
+    }
+}
+
+.product-description{
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Kanit';
+    margin-bottom: 0;
+}
+
+.detail-price{
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+.add-favorite{
+    background-color: #5b7fad !important;
+    border-color: #5b7fad !important;
+    margin-bottom: 10px;
+}
+
+.product-attribute-specs-table{
+    max-width: 50em;
+    width: 100%;
+
+}
+
+.img-gallary{
+    .img-item{
+        border:2px solid #c0c0c0;
+        margin-right:10px;
+
+        &:last-child{
+            margin-right: 0;
+        }
+    }
+}
+
+.product-options {
+    padding: 0 10px;
+}
+
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+
+    .product-share-link-action {
+        li {
+         
+            max-width: 33.33%;
+            height: 25px;   
+            a{
+                max-width: 33.33%;
+                height: 25px;
+                i {
+                    max-width: 33.33%;
+                    height: 25px;
+                }
+            }
+    
+        }
+    }
+   
+  
+
+}
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+    .add-to-cart-buttons {
+        width: 100%;
+    }
+    .productview-add-to-links {
+        width: 100%;
+    }
+    .productview-add-to-links li{
+        width: 100%;
+    }
+    .add-to-box .button{
+        width: 100%;
+    }
+    .shoppinglist-details-link{
+        width: 100%;
+    }
+}

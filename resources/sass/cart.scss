@@ -1,0 +1,239 @@
+.page-heading {
+
+    small {
+        display: block;
+        text-transform: uppercase;
+        font-size: 16px;
+    }
+
+}
+
+h1 {
+    font-size: 32px;
+}
+
+.shop_table tr td,
+.shop_table tr th {
+    border-bottom: 1px solid #EEE;
+}
+
+.shop_table thead th {
+    font-weight: 300;
+}
+
+.shop_table {
+    .product-remove {
+        width: 0%;
+        padding: 0;
+        text-indent: -99999px;
+        border-bottom-color: transparent;
+
+        .remove {
+            background: url('../images/remove-from-cart.png') no-repeat;
+            background-size: 24px;
+            width: 24px;
+            height: 24px;
+            display: block;
+            position: absolute;
+            opacity: 0;
+            top: 50%;
+            left: -30px;
+            -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+            z-index: 1;
+            transition: all 120ms linear;
+            text-indent: -9999px;
+        }
+
+    }
+
+    tr:hover .product-remove .remove {
+        opacity: 1;
+        transition-duration: 220ms;
+        transition-delay: 0s;
+    }
+
+}
+
+.shop_table .product-thumbnail {
+    width: 90px;
+    min-width: 90px;
+    padding-left: 0;
+    padding-right: 20px;
+
+    a {
+        display: block;
+    }
+}
+
+
+.shop_table td.product-name {
+    width: 60%;
+}
+
+.shop_table .product-name {
+    padding-left: 0;
+}
+
+.shop_table .product-price {
+    display: none;
+}
+
+.shop_table .product-quantity {
+    width: 20%;
+}
+
+.shop_table .product-subtotal {
+    text-align: right;
+    padding-right: 0;
+    font-weight: 300;
+
+    .amount {
+        font-size: 22px;
+        color: #222;
+    }
+}
+
+.shop_table .actions {
+    display: none;
+}
+
+.shop_table td {
+    position: relative;
+    padding: 20px 10px;
+
+    .name {
+        display: block;
+        font-size: 24px;
+        font-weight: 300;
+        text-transform: none;
+        margin-bottom: 10px;
+
+        a {
+            color: #222;
+            text-decoration: none;
+        }
+
+        +.price {
+            font-size: 18px;
+            color: #6f6f6f;
+            font-weight: 300;
+
+            .amount {
+                color: #6f6f6f;
+            }
+        }
+    }
+
+    >.price {
+        display: block;
+        color: #888;
+        font-weight: 300;
+        font-size: 16px;
+    }
+
+}
+
+.bootstrap-touchspin {
+    width: 155px !important;
+    background: #eee;
+
+    input {
+        text-align: center;
+    }
+}
+
+.cart-collaterals {
+    margin-top: 40px;
+
+    h2 {
+        font-size: 18px;
+    }
+}
+
+.cart_totals .shop_table tr td,
+.cart_totals .shop_table tr th {
+    font-weight: 400;
+    border-bottom: 1px solid #EEE;
+    padding: 7px 0;
+    text-transform: uppercase;
+    color: #888;
+    font-weight: 300;
+    vertical-align: top;
+    text-align: left;
+}
+
+.cart_totals .shop_table tr.order-total th+td,
+.cart_totals .shop_table tr.cart-subtotal th+td {
+    text-align: right;
+}
+
+.cart_totals .shop_table tr td {
+    color: #222;
+}
+
+.cart-buttons {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .shop_table {
+        .product-remove {
+            padding-left: 5px;
+
+            .remove {
+                left: -10px;
+                z-index: 100;
+                opacity: 1;
+            }
+        }
+
+    }
+
+    .shop_table .product-thumbnail {
+        width: 50px;
+        min-width: 50px;
+        padding-right: 10px;
+    }
+
+    .shop_table td .name {
+        font-size: 16px;
+        text-transform: uppercase;
+        margin-bottom: 4px;
+
+        +.price {
+            font-size: 13px;
+        }
+    }
+
+    .bootstrap-touchspin {
+        width: 130px !important;
+
+    }
+
+    .shop_table .product-subtotal .amount {
+        font-size: 19px;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+    .bootstrap-touchspin {
+        width: 90px !important;
+        height: 28px;
+
+        input {
+            height: 28px;
+            font-size: 14px;
+            padding: 0;
+        }
+
+        button {
+            padding: 0 5px;
+        }
+
+    }
+
+}

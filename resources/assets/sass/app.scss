@@ -1,0 +1,102 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Kanit:300,400,500,600");
+
+// @font-face {
+//   font-family: 'rsubold';
+//   src: url('/fonts/webfonts/rsu-bold/rsu-bold-webfont.eot');
+//   src: url('/fonts/webfonts/rsu-bold/rsu-bold-webfont.eot?#iefix') format('embedded-opentype'),
+//        url('/fonts/webfonts/rsu-bold/rsu-bold-webfont.woff2') format('woff2'),
+//        url('/fonts/webfonts/rsu-bold/rsu-bold-webfont.woff') format('woff');
+//   font-weight: normal;
+//   font-style: normal;
+
+// }
+// @font-face {
+//   font-family: 'rsulight';
+//   src: url('/fonts/webfonts/rsu-light/rsu-light-webfont.eot');
+//   src: url('/fonts/webfonts/rsu-light/rsu-light-webfont.eot?#iefix') format('embedded-opentype'),
+//        url('/fonts/webfonts/rsu-light/rsu-light-webfont.woff2') format('woff2'),
+//        url('/fonts/webfonts/rsu-light/rsu-light-webfont.woff') format('woff');
+//   font-weight: normal;
+//   font-style: normal;
+//   unicode-range: U+0E00–U+0E7F;
+
+// }
+// @font-face {
+//   font-family: 'rsuregular';
+//   src: url('/fonts/webfonts/rsu-regular/rsu-regular-webfont.eot');
+//   src: url('/fonts/webfonts/rsu-regular/rsu-regular-webfont.eot?#iefix') format('embedded-opentype'),
+//        url('/fonts/webfonts/rsu-regular/rsu-regular-webfont.woff2') format('woff2'),
+//        url('/fonts/webfonts/rsu-regular/rsu-regular-webfont.woff') format('woff');
+//   font-weight: normal;
+//   font-style: normal;
+//   unicode-range: U+0E00–U+0E7F;
+
+// }
+// @font-face {
+//   font-family: 'rsutext-regular';
+//   src: url('/fonts/webfonts/rsu-text/rsu_text_regular-webfont.eot');
+//   src: url('/fonts/webfonts/rsu-text/rsu_text_regular-webfont.eot?#iefix') format('embedded-opentype'),
+//        url('/fonts/webfonts/rsu-text/rsu_text_regular-webfont.woff2') format('woff2'),
+//        url('/fonts/webfonts/rsu-text/rsu_text_regular-webfont.woff') format('woff');
+//   font-weight: normal;
+//   font-style: normal;
+//   unicode-range: U+0E00–U+0E7F;
+// }
+
+// @font-face {
+//   font-family: 'rsutext-bold';
+//   src: url('/fonts/webfonts/rsu-text/rsu_text_bold-webfont.eot');
+//   src: url('/fonts/webfonts/rsu-text/rsu_text_bold-webfont.eot?#iefix') format('embedded-opentype'),
+//        url('/fonts/webfonts/rsu-text/rsu_text_bold-webfont.woff2') format('woff2'),
+//        url('/fonts/webfonts/rsu-text/rsu_text_bold-webfont.woff') format('woff');
+//   font-weight: normal;
+//   font-style: normal;
+//   unicode-range: U+0E00–U+0E7F;
+// }
+
+// @font-face {
+//   font-family: 'rsutext-italic';
+//   src: url('/fonts/webfonts/rsu-text/rsu_text_italic-webfont-webfont.eot');
+//   src: url('/fonts/webfonts/rsu-text/rsu_text_italic-webfont-webfont.eot?#iefix') format('embedded-opentype'),
+//        url('/fonts/webfonts/rsu-text/rsu_text_italic-webfont-webfont.woff2') format('woff2'),
+//        url('/fonts/webfonts/rsu-text/rsu_text_italic-webfont-webfont.woff') format('woff');
+//   font-weight: normal;
+//   font-style: normal;
+//   unicode-range: U+0E00–U+0E7F;
+// }
+// Variables
+@import "variables";
+@import "hamburger";
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+
+
+// Font Awesome 
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/brands';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+
+//Swett Alert
+@import '~sweetalert2/src/sweetalert2';
+html{
+  overflow-x: hidden;
+}
+
+.btn-facebook {
+  color: #fff;
+  background-color: #3B5998;
+  border-color: #3B5998;
+}
+h2{
+  font-size: 1.5rem;
+}

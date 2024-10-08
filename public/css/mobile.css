@@ -1,0 +1,38 @@
+@media screen and (max-width: 1024px) {
+  #thai-amulet .thai-amulet-first .box {
+    left: 55%;
+    top: 20%;
+  }
+
+  .footer-social i {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #thai-amulet .thai-amulet-first .box {
+    top: 40%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  #thai-amulet .thai-amulet-first .box {
+    left: 45%;
+    top: 30%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #thai-amulet .thai-amulet-first .box {
+    top: 25%;
+  }
+
+  #thai-amulet .thai-amulet-first .box h2 {
+    font-size: 18px;
+  }
+
+  .top-mb .cart-mb .content-cart-shopping-mb {
+    width: 275px;
+  }
+}
+

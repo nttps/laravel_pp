@@ -1,0 +1,57 @@
+.container-contact {
+    padding: 2rem 5rem;
+
+    .contact-top {
+        padding: 0 15px;
+        margin-bottom: 3rem;
+
+        .info-contact {
+            h2 {
+                font-size: 20px;
+                font-weight: bold;
+            }
+
+            p {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    .text-contact {
+        margin-bottom: 3rem;
+        font-size: 16px;
+    }
+
+    .form-contact {
+        form {
+            width: 50%;
+            margin: 0 auto;
+        }
+    }
+}
+
+
+/* Resposive */
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+    .form-contact {
+        form {
+            width: 90% !important;
+        }
+    }
+
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+    .container-contact {
+        padding: 2rem 0rem;
+
+    }
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {}

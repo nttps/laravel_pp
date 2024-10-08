@@ -1,0 +1,42 @@
+.container-contact {
+  padding: 2rem 5rem;
+}
+
+.container-contact .contact-top {
+  padding: 0 15px;
+  margin-bottom: 3rem;
+}
+
+.container-contact .contact-top .info-contact h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.container-contact .contact-top .info-contact p {
+  margin-bottom: 0;
+}
+
+.container-contact .text-contact {
+  margin-bottom: 3rem;
+  font-size: 16px;
+}
+
+.container-contact .form-contact form {
+  width: 50%;
+  margin: 0 auto;
+}
+
+/* Resposive */
+
+@media (max-width: 767.98px) {
+  .form-contact form {
+    width: 90% !important;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .container-contact {
+    padding: 2rem 0rem;
+  }
+}
+

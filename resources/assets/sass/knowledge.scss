@@ -1,0 +1,32 @@
+
+.knowledge-item{
+    color: black;
+    font-family: 'Kanit';
+    h2{
+        
+        font-size: 18px;
+        line-height: 21px;
+        font-weight: 400px;
+    }
+    .card-text{
+        font-family: 'Kanit';
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    &:hover{
+        box-shadow: 0 0.125rem 4.25rem rgba(0, 0, 0, 0.075) !important;
+    }
+}
+.knowledge-date{
+    position: absolute;
+    padding: 10px;
+    width: 80px;
+    font-size: 25px;
+    line-height: 25px;
+    text-align: center;
+    border: 1px solid green;
+    background-color: white;
+    font-weight: bold;
+}
+

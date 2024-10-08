@@ -1,0 +1,290 @@
+#header-slide{
+    -webkit-box-shadow: 0px 4px 15px 0px #cccccc57;
+    -moz-box-shadow:  0px 4px 15px 0px #cccccc57;
+    box-shadow: 0px 4px 15px 0px #cccccc57;
+}
+
+.flexslider {
+    margin: 0 0 15px !important;
+}
+
+#promotion-home{
+    -webkit-box-shadow: 0px 4px 15px 0px #cccccc57;
+    -moz-box-shadow:  0px 4px 15px 0px #cccccc57;
+    box-shadow: 0px 4px 15px 0px #cccccc57;
+
+    .promotion-content {
+        clear: both;
+        width: 90%;
+        padding: 0 15px;
+        margin: 0 auto;
+        ul.promotion-box{
+            display: flex;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+
+            li{
+                width: calc((100%-40px)/3);
+                margin-right: 40px;
+                &:last-child {
+                    margin-right: 0;
+                }
+
+                a{
+                    display: block;
+                    height: 100%;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+ul.sub-cate-link {
+    min-width: 200px;
+    background-color: #f4f5f7;
+    list-style-type: none;
+    padding: 0 20px 20px 20px;
+}
+ul.sub-cate-link li.sub-cate-item {
+    display: block;
+    padding: 5px 0;
+    border-bottom: 1px dotted #000;
+}
+ul.sub-cate-link li.sub-cate-item a {
+    font-size: 16px;
+    color: #000;
+    font-weight: lighter;
+    display: block;
+    text-decoration: none;
+}
+.product_wrapper_container{
+    display: table;
+    width: 90%;
+    margin: 0 auto;
+    height: 100%;
+    table-layout: fixed;
+    border: 1px solid #999999;
+    margin-bottom: 25px;
+}
+.product_wrapper{
+    display: table-cell;
+    vertical-align: top;
+    padding-bottom: 15px;
+}
+.cate_brand{
+    width: 20%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.main_product{
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+.main_product .image_main{
+    border: 1px solid #999999;
+    display: block;
+    padding: 15px 0;
+    margin-bottom: 15px;
+    min-height: 50vh;
+}
+.main_product .image_main img{
+    width: 100%;
+}
+.cate_product{
+    width: 55%;
+    vertical-align: top;
+}
+
+
+
+#product-good-seller{
+    .wrapper{
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+
+        .product-good-container{
+            .product-good-fifth{
+                margin: 0 auto;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                .product-good-item{
+                    border: 1px solid black;
+                    padding: 8px;
+                    margin-top: 10px;
+                    margin-right: 10px;
+                    box-sizing: border-box;
+                    .product-good-detail{
+                        padding-right: 15px;
+                        padding-left: 15px;
+                        h5{
+                            margin-top: 5px;
+                        }
+                    }
+                    &:last-child{
+                        margin-right: 0;
+                    }
+                    &:hover{
+                        .product-compare {
+                            visibility: visible;
+                            padding: 20px 0;
+                            max-height: 100px;
+                        }
+                    }
+                }
+            }
+            
+        }
+    }
+}
+#product-brands{
+//     -webkit-box-shadow: inset 0px 4px 15px 0px #cccccc57;
+//     -moz-box-shadow:  inset 0px 4px 15px 0px #cccccc57;
+//     box-shadow: inset 0px 4px 15px 0px #cccccc57;
+    //padding: 15px 0 15px 0;
+    .brands-inner{
+        
+        .brands-container{
+           
+            padding-left: 0;
+            font-size: 0;
+            margin: 0 auto;
+            display: flex;
+            //justify-content: center;
+            flex-wrap: wrap;
+            .brands-item{
+                list-style-type: none;
+                display: inline-block;
+                margin:0 10px 0 0;
+                height: 60px;
+                align-items: center;
+                justify-content: center;
+                width: 150px;
+                box-sizing: border-box;
+            }
+        }
+    }
+   
+}
+.knowledge-container{
+    .knowledge-item{
+        width: 350px;
+    }
+}
+
+
+.owl-prev {
+    width: 15px;
+    height: 100px;
+    position: absolute;
+    top: 30%;
+    font-size: 10px !important;
+    margin-left: 50px !important;
+    display: block !important;
+    border:0px solid black;
+    &:hover{
+        background:none !important;
+    }
+    &.disabled{
+        opacity: 0 !important;
+    }
+    &:focus{
+        outline: none !important;
+    }
+    i{
+        &:hover{
+            color: #000;
+        } 
+    }
+}
+
+.owl-next {
+    width: 15px;
+    height: 100px;
+    font-size: 10px !important;
+    position: absolute;
+    top: 30%;
+    right: 50px;
+    display: block !important;
+    border:0px solid black;
+    &:hover{
+        background:none !important;
+    }
+    &.disabled{
+        opacity: 0 !important;
+    }
+    &:focus{
+        outline: none !important;
+    }
+
+    i{
+        &:hover{
+            color: #000;
+        } 
+    }
+}
+.owl-prev i, .owl-next i {transform : scale(4,4); color: #ccc;}
+
+/* Resposive */
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { 
+    .knowledge-container{
+        .knowledge-item{
+            width: 200px !important;
+            height: 200px;
+        }
+    }
+   
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+
+    .promotion-content {
+        
+        width: 100% !important;
+        ul.promotion-box{
+            display: block !important;
+
+            li{
+                width: 100% !important;
+                margin-bottom: 15px;
+            }
+        }
+    }
+    .knowledge-container{
+        .knowledge-item{
+            width: 400px;
+        }
+    }
+   
+  
+
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+    #product-brands{
+        padding: 15px;
+    }
+    .brands-item-mobile{
+        width: 150px !important;
+        height: 60px;
+    }
+ 
+}
